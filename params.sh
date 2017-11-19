@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# This is very useful technique that all scripts should have.
 echo "My name is `basename $0` - I was called as $0"
 echo "I was called with $# paramteres."
 if [ "$#" -eq "2" ]; then
